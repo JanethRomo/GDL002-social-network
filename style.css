@@ -33,7 +33,8 @@ flex-user{
 }
 
 body {
-    background-image: url("/src/imagenes/hojasbackground.jpeg");
+    background: black;
+   /*  background-image: url("/src/imagenes/hojasbackground.jpeg"); */
 }
 
 .logo {

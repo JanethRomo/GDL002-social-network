@@ -30,10 +30,11 @@ let routes = {
   },
 };
 
-window.onpopstate = function () {
-// contentDiv.innerHTML = routes[window.location.pathname].template;
-// routes[pathName].events();
-}
+  /* window.onpopstate = () => {
+    const pathName = window.location.pathname
+    contentDiv.innerHTML = routes[pathName].template;
+    routes[pathName].events();
+  } */
 
 let elementClick = (pathName) => {
   window.history.pushState({}, pathName, window.location.origin + pathName);

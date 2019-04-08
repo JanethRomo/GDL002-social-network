@@ -11,7 +11,7 @@ firebase.auth().onAuthStateChanged(function(user) {
       var user = firebase.auth().currentUser;
       if(user != null){
       const emailId = user.email;
-      document.getElementById('saludo').innerHTML = emailId;
+      document.getElementById('saludo').innerHTML ='Escribe algo en el foro ' + emailId;
       }
     } else {
       // No user is signed in.

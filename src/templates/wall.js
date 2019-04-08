@@ -5,7 +5,7 @@ let wallTemplate = `
 </nav>
 
 <form id='submit-post'>
-<textarea class='post-area' name='comment' placeholder='escribe aqui'></textarea>
+<textarea class='post-area' name='comment' placeholder='Escribe aquí'></textarea>
 
 <button id='publish'>publicar</button>
 </form>
